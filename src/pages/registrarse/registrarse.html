@@ -1,0 +1,73 @@
+<!--
+  Generated template for the RegistrarsePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <!--<ion-navbar>
+    <ion-title>Registrarse</ion-title>
+  </ion-navbar>-->
+</ion-header>
+
+<ion-content padding>
+  <div class="nombreApp">
+    <h1 style="font-size: 20px" >
+      Javier <br> Arithmetic
+    </h1>
+  </div>
+    <img class="logo" src="../../assets/imgs/javierAri.png">
+
+    <ion-list>
+
+      <ion-item>
+        <ion-label stacked style="color: #083f88;">Nombre Completo</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label stacked style="color: #083f88;">Usuario</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label stacked style="color: #083f88;">Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+
+        <ion-list>
+          <ion-item>
+            <ion-label stacked style="color: #083f88;">Date</ion-label>
+            <ion-select [(ngModel)]="mes" class="mes" style="float: left;">
+              <ion-option value="Enero">Enero</ion-option>
+              <ion-option value="Febrero">Febrero</ion-option>
+              <ion-option value="Marzo">Marzo</ion-option>
+              <ion-option value="Abril">Abril</ion-option>
+              <ion-option value="Mayo">Mayo</ion-option>
+              <ion-option value="Junio">Junio</ion-option>
+              <ion-option value="Julio">Julio</ion-option>
+              <ion-option value="Agosto">Agosto</ion-option>
+              <ion-option value="Septiembre">Septiembre</ion-option>
+              <ion-option value="Octubre">Octubre</ion-option>
+              <ion-option value="Noviembre">Noviembre</ion-option>
+              <ion-option value="Diciembre">Diciembre</ion-option>
+            </ion-select>
+            <ion-select [(ngModel)]="anio" class="anio" style="float: left;">
+              <ion-option value="1989">1989</ion-option>
+              <ion-option value="1999">1999</ion-option>
+              <ion-option value="2000">2000</ion-option>
+              <ion-option value="2001">2001</ion-option>
+              <ion-option value="2002">2002</ion-option>
+              <ion-option value="2003">2003</ion-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+      
+    
+    </ion-list>
+  
+    <div class="botonCrearCuenta">
+      <button ion-button >CREAR CUENTA</button>
+  </div>
+</ion-content>

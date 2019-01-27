@@ -1,0 +1,30 @@
+page-registrarse {
+    .logo{
+        margin: auto;
+        position: relative;
+        display: block;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        top: 7px;
+    }
+
+    .nombreApp{
+        position: relative;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        top: 20px;
+        color: #083f88;        
+        }
+
+    .mes{
+        float: left;
+    }
+    .anio{
+        float: left;
+    }
+.botonCrearCuenta{
+    text-align: center;
+}
+     
+}
