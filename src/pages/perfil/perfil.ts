@@ -22,4 +22,8 @@ export class PerfilPage {
     console.log('ionViewDidLoad PerfilPage');
   }
 
+  public navegarAInicio(){
+    this.navCtrl.popToRoot();
+  }
+
 }

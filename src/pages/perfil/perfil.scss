@@ -1,8 +1,115 @@
-page-perfil {
-.perfil{
-    display:block;
-margin:auto;
-    width: 30%;
-    height: 30%;
+// page-perfil {
+// .perfil{
+//     display:block;
+// margin:auto;
+//     width: 30%;
+//     height: 30%;
+// }
+// .espacioAzul{
+//     background-color: #083f88;
+//     height: 150px;
+// }
+// }
+ion-content{
+    --ion-background-color: #e9ebee;
 }
+img{
+    border-radius: 150px;
+    height: 80px;
+    width: 80px;
+    display: block;
+    margin: auto;
 }
+.datos{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+
+}
+.container-fluid{
+    padding: 20px;
+    ion-item-divider{
+        height: 60px;
+        background: white; 
+    }
+    .boton{
+        background: white;
+        color: #bb9999;
+        display: block;
+        margin: auto;
+        padding: 15px;
+        border-radius: 20px;
+
+    
+    }
+    .boton1{
+        background: #083f88;
+        color: white;
+        display: block;
+        margin: auto;
+        padding: 15px;
+        border-radius: 20px;
+    }
+}
+
+.container1 {
+    height: 180px;
+    background: #083f88;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.content {
+    font-family: Arial;
+    text-align: center;
+    font-size: 2em;
+    color: rgba(255, 255, 255, .8)
+}
+.waves{
+    position: absolute;
+    bottom: -135px;
+    height: 527px;
+    width: 100%;
+}
+
+.wave {
+    height: 300px;
+    width: 5802px;
+    left: -180px;
+    bottom: 0;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+    // animation: 5s wave ease-in-out infinite alternate;
+    background: url('../../assets/imgs/waves.png') center bottom no-repeat;
+}
+.wave.a{
+    background-position: 0 54px;
+}
+
+.wave.b {
+    background-position: 0 -427px;
+    animation-delay: .6s;
+}
+
+.wave.c {
+    background-position: 0 0;
+    animation-delay: 1.2s;
+}
+@keyframes wave {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-80px, 30px);
+    }
+
+    100% {
+        transform: translate(160px, -60px);
+    }
+}
+

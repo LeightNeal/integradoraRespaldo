@@ -4,7 +4,7 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
+<!-- <ion-header>
 
   <ion-navbar>
     <ion-title></ion-title>
@@ -15,6 +15,64 @@
 
 <ion-content padding>
   <ion-grid>
-      <img class="perfil" src="../../assets/imgs/perfil3.png">
+    <div class="espacioAzul"></div>
+      <img class="perfil" src="../../assets/imgs/perfil.png">
   </ion-grid>
+</ion-content> -->
+
+
+
+<ion-header>
+  <ion-toolbar>
+    <ion-navbar>
+    <ion-title>perfil</ion-title>
+  </ion-navbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <div class="container1">
+        <div class="content">
+            <img src="../../assets/imgs/perfil3B.png" alt="">
+            <div class="datos">
+                <span>Ich Hasse Leute</span>
+                <br>
+                <span>mouton@gmail.com</span>
+            </div>
+        </div>
+        <div class="waves">
+            <div class="wave circulo a"></div>
+            <div class="wave circulo b"></div>
+            <div class="wave circulo c"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <!-- <button class="boton">
+            <ion-icon name="key"></ion-icon> PIN: 12345
+        </button> -->
+        <br>
+        <ion-item-group>
+            <ion-item-divider >
+                <ion-label>
+                    <ion-icon name="today" style="color:cornflowerblue" ></ion-icon> Información Personal
+                </ion-label>
+            </ion-item-divider>
+            <ion-item-divider>
+                <ion-label>
+                    <ion-icon name="airplane" style="color:darkorange"></ion-icon> Cambiar Contraseña
+                </ion-label>
+            </ion-item-divider>
+            <ion-item-divider>
+                <ion-label>
+                    <ion-icon name="arrow-forward" style="color:darkorchid"></ion-icon> Ranking
+                </ion-label>
+            </ion-item-divider>
+        </ion-item-group>
+        <br>
+        <button class="boton1" (click)="navegarAInicio()">
+            <ion-icon name="log-out"></ion-icon> Cerrar Sesión
+        </button>
+    </div>
+
 </ion-content>
+
