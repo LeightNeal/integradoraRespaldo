@@ -22,4 +22,5 @@ export class PrimeraPage {
     console.log('ionViewDidLoad PrimeraPage');
   }
 
+  
 }

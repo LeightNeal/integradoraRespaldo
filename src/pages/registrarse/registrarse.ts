@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { MenuPage } from '../menu/menu';
 
 /**
  * Generated class for the RegistrarsePage page.
@@ -20,6 +21,10 @@ export class RegistrarsePage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RegistrarsePage');
+  }
+
+  public navegarAMenu(){
+    this.navCtrl.push(MenuPage);
   }
 
 }

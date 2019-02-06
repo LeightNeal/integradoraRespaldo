@@ -12,6 +12,13 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { RegistrarsePage } from '../pages/registrarse/registrarse';
 import { PrimeraPage } from '../pages/primera/primera';
+import { MenuPage } from '../pages/menu/menu';
+import { RetosPage } from '../pages/retos/retos';
+import { LibrePage } from '../pages/libre/libre';
+import { MemoriaPage } from '../pages/memoria/memoria';
+import { RankingPage } from '../pages/ranking/ranking';
+import { PerfilPage } from '../pages/perfil/perfil';
+import { TutorialesPage } from '../pages/tutoriales/tutoriales';
 
 
 
@@ -23,7 +30,14 @@ import { PrimeraPage } from '../pages/primera/primera';
     HomePage,
     TabsPage, 
     RegistrarsePage,
-    PrimeraPage
+    PrimeraPage,
+    MenuPage,
+    RetosPage,
+    LibrePage,
+    MemoriaPage,
+    RankingPage,
+    PerfilPage,
+    TutorialesPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +51,14 @@ import { PrimeraPage } from '../pages/primera/primera';
     HomePage,
     TabsPage,
     RegistrarsePage,
-    PrimeraPage
+    PrimeraPage,
+    MenuPage,
+    RetosPage,
+    LibrePage,
+    MemoriaPage,
+    RankingPage,
+    PerfilPage,
+    TutorialesPage
   ],
   providers: [
     StatusBar,

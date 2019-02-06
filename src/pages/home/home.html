@@ -3,32 +3,32 @@
 </ion-header>
 
 <ion-content padding class="Home">
-  <div class="nombreApp">
+  <!--<div class="nombreApp">
   <h1 style="font-size: 20px" >
     Javier <br> Arithmetic
   </h1>
-</div>
+</div>-->
   <img class="logo" src="../../assets/imgs/javierAri.png">
 
 <!-- Inputs with labels -->
-<div class="form">
-<ion-item>
-  <ion-label>User</ion-label>
-  <ion-input></ion-input>
+<div class="form" >
+<ion-item class="user">
+  <ion-label class="labelUser" style="color: #083f88">User</ion-label>
+  <ion-input class="inputUser" style="color: black"></ion-input>
 </ion-item>
 
-<ion-item>
-  <ion-label position="floating">Password</ion-label>
-  <ion-input type="password"></ion-input>
+<ion-item class="password">
+  <ion-label class="labelPassword" position="floating" style="color: #083f88">Password</ion-label>
+  <ion-input class="inputPassword"  type="password" ></ion-input>
 </ion-item>
 </div>
 
 <div class="botonIngresar">
-    <button ion-button full>INGRESAR</button>
+    <button class="ingresar" ion-button full (click) = "navegarAMenu()" >INGRESAR</button>
 </div>
 
 <div class="botonRegistrarse">
-<button ion-button clear (click) = "navegarARegistrarse()">Registrarse</button>
+<button ion-button clear (click) = "navegarARegistrarse()" class="botonRegistrarseEtiqueta" style="color: #083f88">Registrarse</button>
 </div>
 </ion-content>
 
